@@ -35,15 +35,15 @@ BELOW PLEASE FIND THE CURRENT INSTRUCTIONS FOR MANUAL FIX (i.e. What I am trying
     Please note that when renaming the file, select everything including ".zip" before typing.
 
 
-# TASKS
-===========
-[x] Create repositry
-[x] Create initial instructions in readme file
-[x] Begin formatting and updating
-[ ] Script: auto-downloading latest master .widget file
-[ ] Script: unzip
-[ ] Script: fix identifier with user input for XXXX
-[ ] Script: re-zip
-[ ] Script: rename to com.crashplayerXXXX.yctv.crashplayer-V.V.VV.widget
-[ ] Add download links for images
+#TASKS
+
+[x] Create repositry  
+[x] Create initial instructions in readme file  
+[x] Begin formatting and updating  
+[ ] Script: auto-downloading latest master .widget file  
+[ ] Script: unzip  
+[ ] Script: fix identifier with user input for XXXX  
+[ ] Script: re-zip  
+[ ] Script: rename to com.crashplayerXXXX.yctv.crashplayer-V.V.VV.widget  
+[ ] Add download links for images  
 [ ] Add instructions (/screenshots?) for uploading to [https://gallery.tv.widgets.yahoo.com/publisher/](https://gallery.tv.widgets.yahoo.com/publisher/)
