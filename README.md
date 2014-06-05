@@ -3,13 +3,20 @@ CPInstaller
 
 Script files to aid the widget modifications needed for uploading CrashPlayer to yahoo connected tv
 
-*PRE: Enable known file extensions:  
-[Press Alt, then t, then o; go to the 'View' tab; uncheck the box for 'Hide extensions for known file types'; click OK.]*
-
-BELOW PLEASE FIND THE CURRENT INSTRUCTIONS FOR MANUAL FIX (i.e. What I am trying to automate)
+```  
+To enable know file extensions so you can manually rename (change the file type) the zip file:  
+1. Press Alt  
+2. Press 't'  
+3. Press 'o'  
+4. Go to the 'view' tab  
+5. uncheck the box for 'Hide extensions for known file types'  
+6. Click OK
+```  
+**BELOW PLEASE FIND THE CURRENT INSTRUCTIONS FOR MANUAL FIX  
+(i.e. What I am trying to automate)**  
 
 1. Download the latest binary here: [https://github.com/crashbob/CRASHPlayer/archive/master.zip](https://github.com/crashbob/CRASHPlayer/archive/master.zip)  
-2. [NOTE: For the sake of simplicity, I will assume you download the zip file to a "Downloads" folder.]
+2. [NOTE: I will assume you downloaded the zip file to a "Downloads" folder.]
 
 2. It should have saved as "CRASHPlayer-master.zip"
 
