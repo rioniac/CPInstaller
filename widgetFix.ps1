@@ -3,8 +3,8 @@ param (
 	[string]$myPath = "C:\" )
 
 cd $myPath
-[xml]$myXML = Get-Content $myPath\widget.xml
-$VER = $myXML.metadata.version
-$myXML.metadata.identifier = "com.crashplayer$NUM.yctv.crashplayer"
+[xml]$widget = Get-Content $myPath\widget.xml
+$VER = $widget.metadata.version
+$widget.metadata.identifier = "com.crashplayer$NUM.yctv.crashplayer"
 Add-Content -Path "$myPath\ver.txt" -Value "$VER"
-$myXML.Save("$myPath\widget.xml")
+$widget.Save("$myPath\widget.xml")
