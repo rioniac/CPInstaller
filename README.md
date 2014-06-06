@@ -1,4 +1,4 @@
-CPInstaller
+CPInstaller (Currently Windows-Only) [Tested on Windows 7 64-bit]
 ===========
 
 Script files to aid the widget modifications needed for uploading CrashPlayer to yahoo connected tv  
