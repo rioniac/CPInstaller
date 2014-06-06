@@ -1,8 +1,16 @@
 CPInstaller
 ===========
 
-Script files to aid the widget modifications needed for uploading CrashPlayer to yahoo connected tv
+Script files to aid the widget modifications needed for uploading CrashPlayer to yahoo connected tv  
+  
+Download the latest binary here: [https://github.com/crashbob/CRASHPlayer/archive/master.zip](https://github.com/crashbob/CRASHPlayer/archive/master.zip)   
+Place the zip file, **CPInstall.bat** and **widgetFix.ps1** files in an empty directory.  
+Change the NUM variable in **CPInstall.bat** to your own unique number.  
+Run **CPInstall.bat**  
+You will find your new .widget file inside the CRASHPlayer-master folder.  
+Enjoy!
 
+# MANUAL INSTRUCTIONS
 ```  
 To enable know file extensions so you can manually rename (change the file type) the zip file:  
 1. Open Explorer to the "Downloads" folder.  
@@ -49,10 +57,10 @@ To enable know file extensions so you can manually rename (change the file type)
 [x] Create repositry  
 [x] Create initial instructions in readme file  
 [x] Begin formatting and updating  
-[ ] Script: auto-downloading latest master .widget file  
-[ ] Script: unzip  
-[ ] Script: fix identifier with user input for XXXX  
-[ ] Script: re-zip  
-[ ] Script: rename to com.crashplayerXXXX.yctv.crashplayer-V.V.VV.widget  
+[ ] Script: auto-downloading latest master file  
+[x] Script: unzip  
+[x] Script: fix identifier with user input for XXXX  
+[x] Script: re-zip  
+[x] Script: rename to com.crashplayerXXXX.yctv.crashplayer-V.V.VV.widget  
 [ ] Add download links for images  
 [ ] Add instructions (/screenshots?) for uploading to [https://gallery.tv.widgets.yahoo.com/publisher/](https://gallery.tv.widgets.yahoo.com/publisher/)
