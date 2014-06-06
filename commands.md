@@ -24,7 +24,21 @@ cd CRASHPlayer-master\CRASHPlayer.widget\Contents\
 blabla
 ```
 
-6) To replace foo with bar:
+6) To replace foo with bar (powershell):
 ```
 (Get-Content widget.xml) | ForEach-Object { $_ -replace "foo", "bar" } | Set-Content widget.xml
+```
+
+7) To pass argument to powershell script:
+```
+$step=$args[0]
+
+$iTunes = New-Object -ComObject iTunes.Application
+
+if ($iTunes.playerstate -eq 1)
+{
+  $iTunes.PlayerPosition = $iTunes.PlayerPosition + $step
+}
+
+powershell.exe itunersforward.ps1 15
 ```
