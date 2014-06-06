@@ -1,7 +1,8 @@
-CPInstaller (Currently Windows-Only) [Tested on Windows 7 64-bit]
+CPInstaller
 ===========
 
 Script files to aid the widget modifications needed for uploading CrashPlayer to yahoo connected tv  
+(Currently Windows-Only) [Tested on Windows 7 64-bit]    
   
 Download the latest binary here: [https://github.com/crashbob/CRASHPlayer/archive/master.zip](https://github.com/crashbob/CRASHPlayer/archive/master.zip)   
 Place the zip file, **CPInstall.bat** and **widgetFix.ps1** files in an empty directory.  
