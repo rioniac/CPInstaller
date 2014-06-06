@@ -27,7 +27,6 @@ cd ..
 cd ..
 
 @ECHO %VERSION%
-pause
 
 REM Create ZIP file
 7z a com.crashplayer%NUM%.yctv.crashplayer-%VERSION%.zip CRASHPlayer.widget
