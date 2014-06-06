@@ -6,7 +6,7 @@ Script files to aid the widget modifications needed for uploading CrashPlayer to
   
 Download the latest binary here: [https://github.com/crashbob/CRASHPlayer/archive/master.zip](https://github.com/crashbob/CRASHPlayer/archive/master.zip)   
 Place the zip file, **CPInstall.bat** and **widgetFix.ps1** files in an empty directory.  
-Change the NUM variable in **CPInstall.bat** to your own unique number.  
+Change the NUM variable in **CPInstall.bat** (on line 4) to your own unique number.  
 Run **CPInstall.bat**  
 You will find your new .widget file inside the CRASHPlayer-master folder.  
 Enjoy!
