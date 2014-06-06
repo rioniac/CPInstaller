@@ -1,8 +1,7 @@
 @echo off
 
-REM Set variables, not sure how to pull in version number yet
+REM Set Unique Identifier
 SET NUM=1234
-REM set VER=1.0.11
 
 REM Add 7zip to path for use from command line
 SET NEW=C:\Program Files\7-Zip\
