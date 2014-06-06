@@ -1,3 +1,10 @@
-$ID=$args[0]
+param (
+	[string]$NUM = 1111,
+	[string]$myPath = "C:\" )
 
-(Get-Content widget.xml) | ForEach-Object { $_ -replace "com.crashplayer.yctv.crashplayer", "com.crashplayer$ID.yctv.crashplayer" } | Set-Content widget.xml
+cd $myPath
+[xml]$myXML = Get-Content $myPath\widget.xml
+$VER = $myXML.metadata.version
+$myXML.metadata.identifier = "com.crashplayer$NUM.yctv.crashplayer"
+$VER | Out-File $myPath\ver.txt
+$myXML.Save("$myPath\widget.xml")
