@@ -33,14 +33,9 @@ blabla
 
 7) To pass argument to powershell script:
 ```
-$step=$args[0]
+$ID=$args[0]
 
-$iTunes = New-Object -ComObject iTunes.Application
+(Get-Content widget.xml) | ForEach-Object { $_ -replace "com.crashplayer.yctv.crashplayer", "com.crashplayer$ID.yctv.crashplayer" } | Set-Content widget.xml
 
-if ($iTunes.playerstate -eq 1)
-{
-  $iTunes.PlayerPosition = $iTunes.PlayerPosition + $step
-}
-
-powershell.exe itunersforward.ps1 15
+powershell.exe script.ps1 1029
 ```
