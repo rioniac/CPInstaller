@@ -1,3 +1,5 @@
+**This file is a list of commands I find from research in writing the scripts.**  
+
 1) To see the path of 7zip (i.e. does it exist):  
 ```
 where 7z
