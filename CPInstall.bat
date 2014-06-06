@@ -34,7 +34,3 @@ REM Create ZIP file
 
 REM Rename .zip file as a .widget file
 ren com.crashplayer%NUM%.yctv.crashplayer-%VERSION%.zip com.crashplayer%NUM%.yctv.crashplayer-%VERSION%.widget
-
-REM The below lines are for debugging
-cd ..
-@echo %VERSION% >> ver.txt
