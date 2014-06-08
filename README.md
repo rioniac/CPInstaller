@@ -4,7 +4,7 @@ CPInstaller
 Script files to aid the widget modifications needed for uploading CrashPlayer to yahoo connected tv  
 (Currently Windows/OSX-Only) [Tested on Windows 7 64-bit and OSX 10.9.3]    
   
-# OSX
+# OSX (May also work in Linux)
   
 1. Download the **OSXINSTALL.sh** script to an empty folder.  
 2. Open iTerm or Terminal and navigate to the used folder using **cd ~/path/to/folder/**  
