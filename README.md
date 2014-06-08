@@ -10,7 +10,7 @@ Script files to aid the widget modifications needed for uploading CrashPlayer to
 2. Open iTerm or Terminal and navigate to the used folder using **cd ~/path/to/folder/**  
 3. type the following command and hit enter:
 ```
-**./OSXINSTALL.sh NNNN**
+./OSXINSTALL.sh NNNN
 ```  
 where NNNN is a 4-digit unique number  
 # WINDOWS:
